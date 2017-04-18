@@ -1,3 +1,3 @@
 # FirebaseAuth
 
-* React Native Auth Client Side Parts :grin:
+* React Native Auth Client Side Parts :grin: :smile: :love:
