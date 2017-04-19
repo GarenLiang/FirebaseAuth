@@ -1,8 +1,9 @@
 import Expo from 'expo';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import firebase from 'firebase';
 import SignupForm from './components/SignUpForm';
-
+import SignInForm from './components/SignInForm';
 class App extends React.Component {
   
 
@@ -10,6 +11,7 @@ class App extends React.Component {
     return (
       <View style={styles.container}>
         <SignupForm />
+        <SignInForm />
       </View>
     );
   }
@@ -20,7 +22,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
   },
 });
 
