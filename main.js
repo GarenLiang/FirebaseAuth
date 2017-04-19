@@ -4,6 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import SignupForm from './components/SignUpForm';
 
 class App extends React.Component {
+  
+
   render() {
     return (
       <View style={styles.container}>
