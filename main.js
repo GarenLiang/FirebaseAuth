@@ -1,12 +1,15 @@
 import Expo from 'expo';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import SignupForm from './components/SignUpForm';
 
 class App extends React.Component {
+  
+
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up main.js to start working on your app!</Text>
+        <SignupForm />
       </View>
     );
   }
